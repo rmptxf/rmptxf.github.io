@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on nRF52 dev</title>
+    <link>/tutorials/</link>
+    <description>Recent content in Tutorials on nRF52 dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
+    
+        <atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Get started</title>
+        <link>/tutorials/getting-started/</link>
+        <pubDate>Wed, 15 Apr 2020 01:00:00 +0000</pubDate>
+        
+        <guid>/tutorials/getting-started/</guid>
+        <description>To get started with the nRF52 Development, you need to have a development kit as also download and install the necessary software tools.
+Get a Development Kit: In order to run/test your applications code, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip)is soldered to with all the necessary components needed for its proper working, aditionally to some user-programmable buttons, leds, header pins&amp;hellip; so you can easilly and quikly test your applications.</description>
+      </item>
+      
+      <item>
+        <title>Run your first app</title>
+        <link>/tutorials/run-your-first-app/</link>
+        <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tutorials/run-your-first-app/</guid>
+        <description>After getting your dev-kit and installing all the necessary software tools, this should be the time to run/test some example codes from the SDK. We&amp;rsquo;ll be using the peripheral/blinky example.
+Open the blinky project with SES IDE: For me, i have extracted the SDK .Zip file in C:\nRF5-SDK\nRF5-SDK16, so the blinky example folder location will be in C:\nRF5-SDK\nRF5-SDK16\examples\peripheral\blinky.
+In this folder you will have 2 options, either directly upload the precompiled hex file (hex folder) (you will need nrf connect desktop app for that), or open the source code files (pca&amp;hellip; folders) so you can update and upload your code easilly with Segger Embedded Studio (SES), and this is what we&amp;rsquo;ll be doing.</description>
+      </item>
+      
+      <item>
+        <title>Buttons and leds</title>
+        <link>/tutorials/buttons-and-leds/</link>
+        <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tutorials/buttons-and-leds/</guid>
+        <description>Your nRF52 development kit already comes with 4 user-programmable buttons and 4 leds built in.
+In this tutorial we&amp;rsquo;ll be looking into how to read these buttons states and control the leds. This should give you a better understanding on how to read and control pins states.
+Before getting started: Make sure you have installed all the necessary software tools, and have a dev-kit.
+If you haven&amp;rsquo;t already done that, please follow the Get started tutorial.</description>
+      </item>
+      
+    
+  </channel>
+</rss>
