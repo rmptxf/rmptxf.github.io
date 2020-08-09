@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Get started – nRF52 dev</title>
+    <title>Get started – nRF5dev</title>
     
 
 
@@ -974,7 +974,7 @@
 <meta name="modified" content="2020-04-15T01:00:00&#43;0000">
 
 
-<meta property="og:site_name" content="nRF52 dev">
+<meta property="og:site_name" content="nRF5dev">
 <meta property="og:title" content="Get started">
 <meta property="og:url" content="/tutorials/getting-started/">
 <meta property="og:type" content="article">
@@ -1206,7 +1206,7 @@ if (!doNotTrack) {
         <div id="myDrawer" class="drawer" style="">
   <div class="drawer__header">
     <a href="/" class="drawer__header--text">
-      nRF52dev
+      nRF5dev
     </a>
     <div class="grow"></div>
     <div class="drawer__close">
@@ -1358,7 +1358,7 @@ if (!doNotTrack) {
   
   
     <a href="/" title="" rel="home" class="navbar__logo--text-link">
-      <h6 class="navbar__logo--text" data-bgimg="false">nRF52dev</h6>
+      <h6 class="navbar__logo--text" data-bgimg="false">nRF5dev</h6>
     </a>
   
 </div>
@@ -1766,9 +1766,10 @@ if (!doNotTrack) {
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>To get started with the <strong>nRF52 Development</strong>, you need to have a <strong>development kit</strong> as also download and install the <strong>necessary software tools</strong>.</p>
+    <p>In this Tutorial I will walk you throught all the necessary software tools and Hardwares that you&rsquo;ll need to have set, in order to start developping your BLE applications using the NordicSemi nRF5 based SOCs. I&rsquo;ll be focussing on the nRF52 series, this also applies to the nrf51 series except for the development kit you will need to use an nrf51 based dev-kit.</p>
+<p>In order to get started with the <strong>nRF52 Development</strong>, you need to have a <strong>development kit</strong> as also download and install some <strong>necessary software tools</strong>.</p>
 <h2 id="get-a-development-kit">Get a Development Kit:</h2>
-<p>In order to run/test your applications code, you need to have a <strong>development kit</strong>. the dev-kit consists of a development board, where your targeted SOC (system on chip)is soldered to with all the necessary components needed for its proper working, aditionally to some user-programmable buttons, leds, header pins&hellip; so you can easilly and quikly test your applications. It also consists of a <a href="https://www.segger.com/products/debug-probes/j-link/models/j-link-ob/"  target="_blank" style="text-decoration: none;">
+<p>In order to run/test your applications, you need to have a <strong>development kit</strong>. the dev-kit consists of a development board, where your targeted SOC (system on chip)is soldered to with all the necessary components needed for its proper working, aditionally to some user-programmable buttons, leds, header pins&hellip; so you can easilly and quikly test your applications. It also consists of a <a href="https://www.segger.com/products/debug-probes/j-link/models/j-link-ob/"  target="_blank" style="text-decoration: none;">
     <strong>J-Link OB</strong></a> IC (Interface MCU) used to debug and download compiled codes into the SOC&rsquo;s Flash memory.</p>
 <p><p class="md__image">
   <img src="/tutorials/images/nRF52840dk.png" alt="nrf52840dk"  />
@@ -1795,7 +1796,7 @@ if (!doNotTrack) {
 </p></p>
 <p>To buy a Dev-kit, refer to the NordicSemi distrubutors <a href="https://www.nordicsemi.com/About-us/BuyOnline"  target="_blank" style="text-decoration: none;">
     <strong>WebPage</strong></a>.</p>
-<h2 id="download-and-install-the-necessary-tools">Download and Install the necessary tools:</h2>
+<h2 id="download-and-install-the-necessary-software-tools">Download and Install the necessary software tools:</h2>
 <p>After getting your Development kit, you need to download and install the necessary software tools in order to start your development journey.</p>
 <h3 id="download-and-install-an-ide-">Download and Install an IDE :</h3>
 <p><strong>SEGGER Embedded Studio (SES)</strong> is a Powerful IDE to use, also recomended by NordicSemi and offers a <strong>free Commercial license</strong> for the use with NordicSemi products.</p>
@@ -1809,8 +1810,8 @@ You can download the IDE in <a href="https://www.segger.com/downloads/embedded-s
 <p><p class="md__image">
   <img src="/tutorials/images/nrf5sdk-download.PNG" alt="download the nrf5 sdk"  />
 </p></p>
-<p>The nRF5 Software development kit is a set of tools, modules, libraries, example codes&hellip; that are necessary for building applications for the nRF51 and nRF52 series.<br />
-At the time of writing this tutorial <code>4th of jul 2020</code>, the latest version is <strong>nRF5_SDK_17.0.0_9d13099</strong> (17.00).<br />
+<p>The nRF5 SDK is a set of tools, modules, libraries, examples &hellip; that are necessary for building applications for the nRF51 and nRF52 series.<br />
+At the time of writing this tutorial <code>8th of August 2020</code>, the latest version is <strong>nRF5_SDK_17.0.0_9d13099</strong> (17.00).<br />
 Download your nRF5 SDK copy in <a href="https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK/"  target="_blank" style="text-decoration: none;">
     <strong>the nRF-SDK Download page</strong></a></p>
 <h3 id="download-and-install-the-nrf-command-line-tools">Download and Install the nRF Command Line Tools:</h3>
@@ -1834,7 +1835,7 @@ Download it in <a href="https://www.nordicsemi.com/Software-and-tools/Developmen
   <img src="/tutorials/images/nrf-connect-desktop-download.PNG" alt="nrf desktop app download"  />
 </p></p>
 <h3 id="get-a-ble-explorer-app-for-your-smartphone">Get a BLE explorer app for your SmartPhone:</h3>
-<p>When developping a ble based application, having a testing app installed in your SmartPhone will be very helpful. You can then easilly test and debug your ble services and characteristics. <br />
+<p>When developping a BLE based application, having a testing app installed in your SmartPhone will be very helpful. You can then easilly test and debug your ble services and characteristics. <br />
 I found these apps very helpful:</p>
 <ol>
 <li>
@@ -1894,7 +1895,7 @@ I found these apps very helpful:</p>
     <nav id="TableOfContents">
   <ol>
     <li><a href="#get-a-development-kit">Get a Development Kit:</a></li>
-    <li><a href="#download-and-install-the-necessary-tools">Download and Install the necessary tools:</a>
+    <li><a href="#download-and-install-the-necessary-software-tools">Download and Install the necessary software tools:</a>
       <ol>
         <li><a href="#download-and-install-an-ide-">Download and Install an IDE :</a></li>
         <li><a href="#download-the-nrf5-sdk">Download the nRF5 SDK:</a></li>
