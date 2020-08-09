@@ -968,7 +968,7 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <meta name="description" content="Getting started with nRF52 Development." />
+    <meta name="description" content="Getting started with nRF5 Development : The Software tools and the hardware that you need to have." />
 <meta name="keywords" content="">
 <meta name="created" content="2020-04-15T01:00:00&#43;0000">
 <meta name="modified" content="2020-04-15T01:00:00&#43;0000">
@@ -1206,7 +1206,7 @@ if (!doNotTrack) {
         <div id="myDrawer" class="drawer" style="">
   <div class="drawer__header">
     <a href="/" class="drawer__header--text">
-      nRF5dev
+      
     </a>
     <div class="grow"></div>
     <div class="drawer__close">
@@ -1354,23 +1354,19 @@ if (!doNotTrack) {
       <div class="navbar lmr">
         <div id="siteLogo" class="navbar__logo--wrapper">
   
-    &nbsp;&nbsp;
-  
-  
-    <a href="/" title="" rel="home" class="navbar__logo--text-link">
-      <h6 class="navbar__logo--text" data-bgimg="false">nRF5dev</h6>
+    <a href="/" title="" rel="home" class="navbar__long--link">
+      <img src="/logo.png" alt="Home" class="navbar__logo">
     </a>
+  
   
 </div>
         
         <div class="navbar__menu--wrapper">
           <div id="tabletLogo" class="hide">
   
-    <a href="/" rel="home" class="navbar__logo--link">
-      <div class="navbar__icons--icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z"/></svg>
-      </div>
-    </a>
+  <a href="/" rel="home" class="navbar__long--link">
+    <img src="/logo.png" alt="Home" class="navbar__logo">
+  </a>
   
 </div>
           <div id="mobileLogo" class="hide">
@@ -1628,7 +1624,7 @@ if (!doNotTrack) {
   
   <li >
     
-      <a href="/" class="capitalize">nRF52dev</a>
+      <a href="/" class="capitalize">nRF5dev</a>
     
   </li>
   
@@ -1766,9 +1762,8 @@ if (!doNotTrack) {
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>In this Tutorial I will walk you throught all the necessary software tools and Hardwares that you&rsquo;ll need to have set, in order to start developping your BLE applications using the NordicSemi nRF5 based SOCs. I&rsquo;ll be focussing on the nRF52 series, this also applies to the nrf51 series except for the development kit you will need to use an nrf51 based dev-kit.</p>
-<p>In order to get started with the <strong>nRF52 Development</strong>, you need to have a <strong>development kit</strong> as also download and install some <strong>necessary software tools</strong>.</p>
-<h2 id="get-a-development-kit">Get a Development Kit:</h2>
+    <p>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.</p>
+<h2 id="1-get-a-development-kit">1: Get a Development Kit</h2>
 <p>In order to run/test your applications, you need to have a <strong>development kit</strong>. the dev-kit consists of a development board, where your targeted SOC (system on chip)is soldered to with all the necessary components needed for its proper working, aditionally to some user-programmable buttons, leds, header pins&hellip; so you can easilly and quikly test your applications. It also consists of a <a href="https://www.segger.com/products/debug-probes/j-link/models/j-link-ob/"  target="_blank" style="text-decoration: none;">
     <strong>J-Link OB</strong></a> IC (Interface MCU) used to debug and download compiled codes into the SOC&rsquo;s Flash memory.</p>
 <p><p class="md__image">
@@ -1796,9 +1791,9 @@ if (!doNotTrack) {
 </p></p>
 <p>To buy a Dev-kit, refer to the NordicSemi distrubutors <a href="https://www.nordicsemi.com/About-us/BuyOnline"  target="_blank" style="text-decoration: none;">
     <strong>WebPage</strong></a>.</p>
-<h2 id="download-and-install-the-necessary-software-tools">Download and Install the necessary software tools:</h2>
+<h2 id="2-install-the-necessary-software-tools">2: Install the necessary software tools</h2>
 <p>After getting your Development kit, you need to download and install the necessary software tools in order to start your development journey.</p>
-<h3 id="download-and-install-an-ide-">Download and Install an IDE :</h3>
+<h3 id="1-an-ide">1 an IDE</h3>
 <p><strong>SEGGER Embedded Studio (SES)</strong> is a Powerful IDE to use, also recomended by NordicSemi and offers a <strong>free Commercial license</strong> for the use with NordicSemi products.</p>
 <p>You&rsquo;ll be notified (with instructions) to request and install your free license on your first launch.<br />
 You can download the IDE in <a href="https://www.segger.com/downloads/embedded-studio/"  target="_blank" style="text-decoration: none;">
@@ -1806,7 +1801,7 @@ You can download the IDE in <a href="https://www.segger.com/downloads/embedded-s
 <p class="md__image">
   <img src="/tutorials/images/ses-download.PNG" alt="download segger embedded studio (ses)"  />
 </p></p>
-<h3 id="download-the-nrf5-sdk">Download the nRF5 SDK:</h3>
+<h3 id="2-the-nrf5-sdk">2 The nRF5 SDK</h3>
 <p><p class="md__image">
   <img src="/tutorials/images/nrf5sdk-download.PNG" alt="download the nrf5 sdk"  />
 </p></p>
@@ -1814,7 +1809,7 @@ You can download the IDE in <a href="https://www.segger.com/downloads/embedded-s
 At the time of writing this tutorial <code>8th of August 2020</code>, the latest version is <strong>nRF5_SDK_17.0.0_9d13099</strong> (17.00).<br />
 Download your nRF5 SDK copy in <a href="https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK/"  target="_blank" style="text-decoration: none;">
     <strong>the nRF-SDK Download page</strong></a></p>
-<h3 id="download-and-install-the-nrf-command-line-tools">Download and Install the nRF Command Line Tools:</h3>
+<h3 id="3-the-nrf-command-line-tools">3 The nRF Command Line Tools</h3>
 <p><p class="md__image">
   <img src="/tutorials/images/nrf-clit.PNG" alt="nrf command line tools "  />
 </p></p>
@@ -1824,7 +1819,7 @@ Download it for your OS in <a href="https://www.nordicsemi.com/Software-and-Tool
 <p><p class="md__image">
   <img src="/tutorials/images/nrf-clit-download.PNG" alt="download nrf command line tools "  />
 </p></p>
-<h3 id="download-and-install-nrfconnect-desktop-app">Download and Install nRFConnect Desktop app:</h3>
+<h3 id="4-the-nrfconnect-desktop-app">4 The nRFConnect Desktop app</h3>
 <p><p class="md__image">
   <img src="/tutorials/images/nrf-connect-desktop.PNG" alt="nrf desktop app"  />
 </p></p>
@@ -1834,7 +1829,7 @@ Download it in <a href="https://www.nordicsemi.com/Software-and-tools/Developmen
 <p><p class="md__image">
   <img src="/tutorials/images/nrf-connect-desktop-download.PNG" alt="nrf desktop app download"  />
 </p></p>
-<h3 id="get-a-ble-explorer-app-for-your-smartphone">Get a BLE explorer app for your SmartPhone:</h3>
+<h3 id="25-get-a-ble-explorer-app-for-your-smartphone">2.5 Get a BLE explorer app for your SmartPhone</h3>
 <p>When developping a BLE based application, having a testing app installed in your SmartPhone will be very helpful. You can then easilly test and debug your ble services and characteristics. <br />
 I found these apps very helpful:</p>
 <ol>
@@ -1894,14 +1889,14 @@ I found these apps very helpful:</p>
   <div class="toc__body">
     <nav id="TableOfContents">
   <ol>
-    <li><a href="#get-a-development-kit">Get a Development Kit:</a></li>
-    <li><a href="#download-and-install-the-necessary-software-tools">Download and Install the necessary software tools:</a>
+    <li><a href="#1-get-a-development-kit">1: Get a Development Kit</a></li>
+    <li><a href="#2-install-the-necessary-software-tools">2: Install the necessary software tools</a>
       <ol>
-        <li><a href="#download-and-install-an-ide-">Download and Install an IDE :</a></li>
-        <li><a href="#download-the-nrf5-sdk">Download the nRF5 SDK:</a></li>
-        <li><a href="#download-and-install-the-nrf-command-line-tools">Download and Install the nRF Command Line Tools:</a></li>
-        <li><a href="#download-and-install-nrfconnect-desktop-app">Download and Install nRFConnect Desktop app:</a></li>
-        <li><a href="#get-a-ble-explorer-app-for-your-smartphone">Get a BLE explorer app for your SmartPhone:</a></li>
+        <li><a href="#1-an-ide">1 an IDE</a></li>
+        <li><a href="#2-the-nrf5-sdk">2 The nRF5 SDK</a></li>
+        <li><a href="#3-the-nrf-command-line-tools">3 The nRF Command Line Tools</a></li>
+        <li><a href="#4-the-nrfconnect-desktop-app">4 The nRFConnect Desktop app</a></li>
+        <li><a href="#25-get-a-ble-explorer-app-for-your-smartphone">2.5 Get a BLE explorer app for your SmartPhone</a></li>
       </ol>
     </li>
   </ol>

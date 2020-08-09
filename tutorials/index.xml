@@ -20,8 +20,8 @@
         <pubDate>Wed, 15 Apr 2020 01:00:00 +0000</pubDate>
         
         <guid>/tutorials/getting-started/</guid>
-        <description>In this Tutorial I will walk you throught all the necessary software tools and Hardwares that you&amp;rsquo;ll need to have set, in order to start developping your BLE applications using the NordicSemi nRF5 based SOCs. I&amp;rsquo;ll be focussing on the nRF52 series, this also applies to the nrf51 series except for the development kit you will need to use an nrf51 based dev-kit.
-In order to get started with the nRF52 Development, you need to have a development kit as also download and install some necessary software tools.</description>
+        <description>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.
+1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip)is soldered to with all the necessary components needed for its proper working, aditionally to some user-programmable buttons, leds, header pins&amp;hellip; so you can easilly and quikly test your applications.</description>
       </item>
       
       <item>
