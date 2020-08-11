@@ -21,7 +21,7 @@
         
         <guid>/tutorials/getting-started/</guid>
         <description>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.
-1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip)is soldered to with all the necessary components needed for its proper working, aditionally to some user-programmable buttons, leds, header pins&amp;hellip; so you can easilly and quikly test your applications.</description>
+1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.</description>
       </item>
       
       <item>
