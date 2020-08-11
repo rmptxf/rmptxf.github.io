@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>/tutorials/run-your-first-app/</loc>
+    <loc>/tutorials/test-blinky-app/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,22 +23,8 @@
   </url>
   
   <url>
-    <loc>/examples/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
-    <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tutorials/</loc>
     <lastmod>2020-01-11T14:09:21+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
   </url>
   
 </urlset>
