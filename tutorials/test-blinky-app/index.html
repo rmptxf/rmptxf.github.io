@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Test the blinky Example – nRF5dev</title>
+    <title>Blinky Example – nRF5dev</title>
     
 
 
@@ -975,7 +975,7 @@
 
 
 <meta property="og:site_name" content="nRF5dev">
-<meta property="og:title" content="Test the blinky Example">
+<meta property="og:title" content="Blinky Example">
 <meta property="og:url" content="/tutorials/test-blinky-app/">
 <meta property="og:type" content="article">
 
@@ -1174,7 +1174,7 @@ if (!doNotTrack) {
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-170105524-1', 'auto');
+	ga('create', 'UA-175434399-1', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -1185,7 +1185,7 @@ if (!doNotTrack) {
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-170105524-1', 'auto');
+	ga('create', 'UA-175434399-1', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -1218,7 +1218,7 @@ if (!doNotTrack) {
     <div class="menu">
   <h6 class="menu__label">
     
-      Test the blinky Example
+      Blinky Example
     
   </h6>
   <ul>
@@ -1265,7 +1265,7 @@ if (!doNotTrack) {
   
   <li class="active">
     <a href="/tutorials/test-blinky-app/"
-      class="menu__title active">Test the blinky Example</a>
+      class="menu__title active">Blinky Example</a>
   </li>
   
 
@@ -1561,7 +1561,7 @@ if (!doNotTrack) {
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Test the blinky Example</h2>
+        <h2 class="title">Blinky Example</h2>
       </div>
     </div>
   </div>
@@ -1594,7 +1594,7 @@ if (!doNotTrack) {
   
   <li  class="is-active" >
     
-      <span>Test the blinky Example</span>
+      <span>Blinky Example</span>
     
   </li>
   
@@ -1618,7 +1618,7 @@ if (!doNotTrack) {
         <div class="menu">
   <h6 class="menu__label">
     
-      Test the blinky Example
+      Blinky Example
     
   </h6>
   <ul>
@@ -1665,7 +1665,7 @@ if (!doNotTrack) {
   
   <li class="active">
     <a href="/tutorials/test-blinky-app/"
-      class="menu__title active">Test the blinky Example</a>
+      class="menu__title active">Blinky Example</a>
   </li>
   
 
@@ -1718,9 +1718,9 @@ if (!doNotTrack) {
   
 
   <article class="single__contents" data-dir="ltr">
-    <p>After getting your <strong>development kit</strong> and installing all <strong>the necessary software tools</strong>, this should be the time to run/test some examples from the SDK. I will be using the blinky example under the peripheral examples folder.</p>
+    <p>After getting your <strong>development kit</strong> and installing all <strong>the necessary software tools</strong>, this should be the time to run/test some examples from the nRF5_SDK. I will be using the blinky example under the peripheral examples folder.</p>
 <h2 id="open-the-blinky-project-with-ses-ide">Open the blinky project with SES IDE:</h2>
-<p>I have extracted the SDK <strong>.Zip</strong> file in <code>C:\nRF\nRF5_SDK\v17.0.0\</code>, so the blinky example folder location will be in <code>C:\nRF\nRF5_SDK\v17.0.0\examples\peripheral\blinky</code>.<br />
+<p>I have extracted the nRF5_SDK <strong>.Zip</strong> file in <code>C:\nRF\nRF5_SDK\v17.0.0\</code>, so the blinky example folder location will be in <code>C:\nRF\nRF5_SDK\v17.0.0\examples\peripheral\blinky</code>.<br />
 <p class="md__image">
   <img src="/tutorials/images/test-blinky-app/blinky-code-location.png" alt="blinky code folder location"  />
 </p></p>
@@ -1734,10 +1734,10 @@ if (!doNotTrack) {
   <img src="/tutorials/images/test-blinky-app/pca_numbers.PNG" alt="nrf5 pca numbers"  />
 </p></p>
 <blockquote>
-<p><strong>Note:</strong> This is also printed on Top of the On-board J-LINK Debugger MCU of your Development kit.</p>
+<p><strong>Note:</strong> This is also printed on Top of the On-board Debugger MCU of your Development kit.</p>
 </blockquote>
 <blockquote>
-<p><strong>Note:</strong> Most of the examples does not support the <strong>nRF52833-DK</strong> , but as the on-board SOC (nRF52833) is very similar to the (nRF52840), you can use the <strong>PCA10056</strong> folder also for this dev-kit. But, you still need to :</p>
+<p><strong>Note:</strong> Most of the nRF5_SDK examples does not support the <strong>nRF52833-DK</strong> , but as the on-board SOC (nRF52833) is very similar to the (nRF52840) you can use the <strong>PCA10056</strong> folder also for this dev-kit. But, you still need to :</p>
 <ol>
 <li>Change the board config from <strong>PCA10056</strong> to <strong>PCA10100</strong>.</li>
 <li>Change the board definition in preprocessor definitions.</li>
@@ -1745,7 +1745,7 @@ if (!doNotTrack) {
 </ol>
 </blockquote>
 <blockquote>
-<p><strong>Note:</strong>  The <strong>SDK v12.3.0</strong> is the latest SDK to support the nRF51 family. So planing on using these SOCs will require using the <strong>nRF5 SDK v12.3.0</strong>.</p>
+<p><strong>Note:</strong>  The <strong>nRF5_SDK v12.3.0</strong> is the latest SDK to support the nRF51 family. So planing on using these SOCs will require using the <strong>nRF5_SDK v12.3.0</strong> or older versions.</p>
 </blockquote>
 <p>For me, I have the <strong>nRF52840-DK</strong>, so i&rsquo;ll open the <strong>PCA10056</strong> folder, then <strong>blank</strong> (The example doesn&rsquo;t use a Softdevice), then the <strong>IDE (SES)</strong>, then open the <strong>EMPROJECT</strong> file. <strong>(SES)</strong> should then launch and load the blinky project source files.</p>
 <p><p class="md__image">
@@ -1758,8 +1758,8 @@ Here is the <a href="https://www.nordicsemi.com/Software-and-tools/Development-K
 <p><p class="md__image">
   <img src="/tutorials/images/test-blinky-app/nrf52840dk-plugged-to-pc.png" alt="plug you nRF52840-DK to your pc"  />
 </p></p>
-<p>The Left USB connector <strong>(J2)</strong> is wired directly to the <strong>On-board J-link Debugger</strong>, that in its turn is wired to both the on-board SOC and to the <strong>debug out</strong> ports.<br />
-The <strong>On-board J-link Debugger</strong> automatically selects the SOC that will program. It will first check the <strong>debug out</strong> ports, if it didn&rsquo;t detect any SOC on these ports, it will then switch to the on board SOC.</p>
+<p>The Left USB connector <strong>(J2)</strong> is wired directly to the <strong>On-board Debugger</strong>, that in its turn is wired to both the on-board SOC and to the <strong>debug out</strong> ports.<br />
+The <strong>On-board Debugger</strong> automatically selects the SOC that will connect to. It will first check the <strong>debug out</strong> ports, if it didn&rsquo;t detect any SOC on these ports, it will then switch to the on board SOC.</p>
 <p>If you&rsquo;re using the <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-DK"  target="_blank" style="text-decoration: none;">
     <strong>nRF52840-DK</strong></a> or the <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52833-DK"  target="_blank" style="text-decoration: none;">
     <strong>nRF52833-DK</strong></a>, make sure these switches are set to the default states:</p>
@@ -1775,12 +1775,12 @@ The <strong>On-board J-link Debugger</strong> automatically selects the SOC that
 <p><strong>Note:</strong> If you are using other development kits like the <strong>nRF52 DK</strong>, You will only have the power switch, so just turn that <strong>ON</strong> and you will be all set.</p>
 </blockquote>
 <h2 id="build-and-run-the-blinky-app">Build and Run the blinky app:</h2>
-<p>If everything is good, when you plug your dev-kit your OS should detect it and a <strong>green LED</strong> close to the <strong>(Interface MCU)</strong> should light up. Now lets move into <strong>SES</strong>, where we have lunched our blinky example.<br />
+<p>If everything is good, when you plug your dev-kit your OS should detect it and a <strong>green LED</strong> close to the <strong>On-board Debugger</strong> should light up. Now lets move into <strong>SES</strong>, where we have lunched our blinky example.<br />
 Your SES user interface should look something like this:<br />
 <p class="md__image">
   <img src="/tutorials/images/test-blinky-app/ses-blinky-example-code.PNG" alt="ses blinky example code"  />
 </p></p>
-<p>The project&rsquo;s <strong>Folder/Files</strong> are on the left side. Go to the** Application** folder, and open the <code>main.c</code> file (if it&rsquo;s not already opened).</p>
+<p>The project&rsquo;s <strong>Folder/Files</strong> are on the left side. Go to the <strong>Application</strong> folder, and open the <code>main.c</code> file (if it&rsquo;s not already opened).</p>
 <p>Go to the <strong>Build</strong> menu and select <strong>Build and Run</strong>. This should build your application and flash it directly to your development kit SOC.</p>
 <p><p class="md__image">
   <img src="/tutorials/images/test-blinky-app/ses-build-and-run.PNG" alt="ses build and run the blinky example"  />
@@ -1922,7 +1922,7 @@ The new main()function would look like:</p>
 </div>
 <h4 id="4-blink-a-specific-led">4. Blink a specific LED:</h4>
 <p>Now lets blink a specific LED.<br />
-Looking again into the <code>boards.c</code> file, ther are these two functions <code>bsp_board_led_on(uint32_t led_idx)</code> and <code>bsp_board_led_off(uint32_t led_idx)</code>. These two function can turn On/Off a specific LED, based on its index. <br />
+Looking again into the <code>boards.c</code> file, there are these two functions <code>bsp_board_led_on(uint32_t led_idx)</code> and <code>bsp_board_led_off(uint32_t led_idx)</code>. These two function can turn On/Off a specific LED, based on its index. <br />
 Let&rsquo;s blink the LED1 which its index is 0.</p>
 <blockquote>
 <p><strong>Note:</strong> If you try to use an out of range index ( &gt; LEDS_NUMBER-1), the application execution will assert.</p>

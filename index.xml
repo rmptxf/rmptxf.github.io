@@ -21,17 +21,17 @@
         
         <guid>/tutorials/getting-started/</guid>
         <description>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.
-1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.</description>
+Step1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.</description>
       </item>
       
       <item>
-        <title>Test the blinky Example</title>
+        <title>Blinky Example</title>
         <link>/tutorials/test-blinky-app/</link>
         <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
         
         <guid>/tutorials/test-blinky-app/</guid>
-        <description>After getting your development kit and installing all the necessary software tools, this should be the time to run/test some examples from the SDK. I will be using the blinky example under the peripheral examples folder.
-Open the blinky project with SES IDE: I have extracted the SDK .Zip file in C:\nRF\nRF5_SDK\v17.0.0\, so the blinky example folder location will be in C:\nRF\nRF5_SDK\v17.0.0\examples\peripheral\blinky.
+        <description>After getting your development kit and installing all the necessary software tools, this should be the time to run/test some examples from the nRF5_SDK. I will be using the blinky example under the peripheral examples folder.
+Open the blinky project with SES IDE: I have extracted the nRF5_SDK .Zip file in C:\nRF\nRF5_SDK\v17.0.0\, so the blinky example folder location will be in C:\nRF\nRF5_SDK\v17.0.0\examples\peripheral\blinky.
 In this folder you will have 2 options:</description>
       </item>
       

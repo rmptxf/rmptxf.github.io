@@ -1174,7 +1174,7 @@ if (!doNotTrack) {
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-170105524-1', 'auto');
+	ga('create', 'UA-175434399-1', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -1185,7 +1185,7 @@ if (!doNotTrack) {
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-170105524-1', 'auto');
+	ga('create', 'UA-175434399-1', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -1265,7 +1265,7 @@ if (!doNotTrack) {
   
   <li class="">
     <a href="/tutorials/test-blinky-app/"
-      class="menu__title ">Test the blinky Example</a>
+      class="menu__title ">Blinky Example</a>
   </li>
   
 
@@ -1665,7 +1665,7 @@ if (!doNotTrack) {
   
   <li class="">
     <a href="/tutorials/test-blinky-app/"
-      class="menu__title ">Test the blinky Example</a>
+      class="menu__title ">Blinky Example</a>
   </li>
   
 
@@ -1719,9 +1719,9 @@ if (!doNotTrack) {
 
   <article class="single__contents" data-dir="ltr">
     <p>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.</p>
-<h2 id="1-get-a-development-kit">1: Get a Development Kit</h2>
+<h2 id="step1-get-a-development-kit">Step1: Get a Development Kit</h2>
 <p>In order to run/test your applications, you need to have a <strong>development kit</strong>. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working. Aditionally to some user-programmable buttons, leds, header pins&hellip; so you can easilly and quikly test your applications. It also comes with a <a href="https://www.segger.com/products/debug-probes/j-link/models/j-link-ob/"  target="_blank" style="text-decoration: none;">
-    <strong>J-Link Debugger</strong></a> IC (Interface MCU) allowing programming and debugging both the on-board SoC and external SoCs through the debug out headers.</p>
+    <strong>J-Link Debugger</strong></a> IC (Interface MCU) allowing programming and debugging both the on-board SoC, and external SoCs through the debug out headers.</p>
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nRF52840-DK-ex.png" alt="nrf52840dk"  />
 </p></p>
@@ -1741,7 +1741,7 @@ if (!doNotTrack) {
 <li><strong>Data rates :</strong> 2 Mbps, 1 Mbps, 250 kbps.</li>
 <li><strong>TX Power :</strong> +4 dBm.</li>
 <li><strong>Peripherals :</strong> UART, SPI, TWI.</li>
-<li><strong>ADC resolution :</strong> 10-bit.</li>
+<li><strong>ADC :</strong> 10-bit.</li>
 <li><strong>Encryption :</strong> 128-bit AES CCM.</li>
 <li><strong>AEC Q100 Qualification :</strong> (Grade 2) <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51824"  target="_blank" style="text-decoration: none;">
     <strong>nRF51824</strong></a> Only.</li>
@@ -1762,12 +1762,12 @@ if (!doNotTrack) {
     <strong>nRF51822</strong></a>, <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51422"  target="_blank" style="text-decoration: none;">
     <strong>nRF51422</strong></a>, <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51824"  target="_blank" style="text-decoration: none;">
     <strong>nRF51824</strong></a> SoCs.<br />
-The dongle comes with a On-Borad SEGGER J-Link debugger, same as the Dev-kit. So you will not need to have an external debugger for flashing and debugging your applications. But as you note in the picture, the dongle has few pins exposed. So planing to use lot of pins might be of an issue. For that i suggest getting a dev-kit instead, then maybe get a dongle.<br />
+The dongle comes with a On-Board SEGGER J-Link debugger, same as the Dev-kit. So you will not need to have an external debugger for flashing and debugging your applications. But as you note in the picture, the dongle has few pins exposed. So planing to use lot of pins might be of an issue. For that i suggest getting a dev-kit instead, then maybe get a dongle.<br />
 <p class="md__image">
   <img src="/tutorials/images/getting-started/nRF51-Dongle.png" alt="nRF51-Dongle"  />
 </p></p>
 <blockquote>
-<p><strong>Note:</strong>  The <strong>SDK v12.3.0</strong> is the latest SDK to support the nRF51 family. So planing on using these SOCs will require using the <strong>nRF5 SDK v12.3.0</strong>.</p>
+<p><strong>Note:</strong>  The <strong>nRF5_SDK v12.3.0</strong> is the latest SDK to support the nRF51 family. So planing on using these SOCs will require using the <strong>nRF5_SDK v12.3.0</strong> or older versions.</p>
 </blockquote>
 <h3 id="the-nrf52-series">The nRF52 series:</h3>
 <p>The nRF52 series features <strong>7</strong> SOCs :<a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52805"  target="_blank" style="text-decoration: none;">
@@ -1809,7 +1809,7 @@ The <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF5
     <strong>nRF52832</strong></a>.</li>
 <li><strong>NFC-A :</strong> <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52832"  target="_blank" style="text-decoration: none;">
     <strong>nRF52832</strong></a>.</li>
-<li><strong>ADC resolution :</strong> 12-bit.</li>
+<li><strong>ADC :</strong> 12-bit.</li>
 <li><strong>Encryption :</strong> 128-bit AES.</li>
 <li><strong>Onboard SOC :</strong> <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52832"  target="_blank" style="text-decoration: none;">
     <strong>nRF52832</strong></a>.</li>
@@ -1837,7 +1837,7 @@ The <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF5
     <strong>nRF52833</strong></a>.</li>
 <li><strong>QDEC :</strong> <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52820"  target="_blank" style="text-decoration: none;">
     <strong>nRF52820</strong></a>.</li>
-<li><strong>ADC resolution :</strong> 12-bit.</li>
+<li><strong>ADC :</strong> 12-bit.</li>
 <li><strong>Encryption :</strong> 128-bit AES (<a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52820"  target="_blank" style="text-decoration: none;">
     <strong>nRF52820</strong></a>), 128-bit AES CCM (<a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52833"  target="_blank" style="text-decoration: none;">
     <strong>nRF52833</strong></a>).</li>
@@ -1873,7 +1873,7 @@ The <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF5
 <li><strong>Peripherals :</strong> UART, SPI, TWI, PWM, PDM.</li>
 <li><strong>HS-SPI, I2S, NFC,FS USB2.0 :</strong> <a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840"  target="_blank" style="text-decoration: none;">
     <strong>nRF52840</strong></a>.</li>
-<li><strong>ADC resolution :</strong> 12-bit.</li>
+<li><strong>ADC :</strong> 12-bit.</li>
 <li><strong>Encryption :</strong> 128-bit AES (<a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52820"  target="_blank" style="text-decoration: none;">
     <strong>nRF52811</strong></a>), 128-bit AES CCM &amp; Arm CryptoCell-310 (<a href="https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52840"  target="_blank" style="text-decoration: none;">
     <strong>nRF52840</strong></a>).</li>
@@ -1888,7 +1888,7 @@ The <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF5
 <h4 id="nrf52840-dongle">nRF52840-Dongle:</h4>
 <p>The <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-Dongle"  target="_blank" style="text-decoration: none;">
     <strong>nRF52840-Dongle</strong></a> is similar to the <a href="https://www.nordicsemi.com/Software-and-tools/Development-Kits/nRF52840-DK"  target="_blank" style="text-decoration: none;">
-    <strong>nRF52840-DK</strong></a>, but it doesn&rsquo;t have an on-borad debugger, so the debugging is not supported. The dongle can be programmed by USB using the nRFConnect desktop app.</p>
+    <strong>nRF52840-DK</strong></a>, but it doesn&rsquo;t have an on-board debugger, so the debugging is not supported. The dongle can be programmed via USB using the nRFConnect desktop app.</p>
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nRF52840-Dongle.png" alt="nRF52840-Dongle"  />
 </p></p>
@@ -1921,22 +1921,20 @@ Bluetooth mesh, Thread, Zigbee.</li>
 <p class="md__image">
   <img src="/tutorials/images/getting-started/Buy-dvelopment-kit.PNG" alt="Buy a nRF5 development kit"  />
 </p></p>
-<h2 id="2-install-the-necessary-software-tools">2: Install the necessary software tools</h2>
+<h2 id="step2-install-the-necessary-software-tools">Step2: Install the necessary software tools</h2>
 <p>After getting your Development kit, you need to download and install the necessary software tools.</p>
 <h3 id="the-toolchainide">The Toolchain/IDE</h3>
 <p>The latest version of the nRF5 SDK (v17) supports: <strong>ARM GCC, IAR, Keil5 and SES</strong>.</p>
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nrf5-supported-toolchains.png" alt="nrf5 supported toolchains"  />
 </p></p>
-<p><strong>SEGGER Embedded Studio (SES)</strong> is a Powerful IDE to use, also recomended by NordicSemi and offers a <strong>Free Commercial license</strong> for the use with its products.</p>
+<p><strong>SEGGER Embedded Studio (SES)</strong> is a Powerful IDE to use, also recomended by NordicSemi and offers a <a href="https://www.segger.com/news/segger-embedded-studio-ide-now-free-for-nordic-sdk-users/"  target="_blank" style="text-decoration: none;">
+    <strong>Free Commercial license</strong></a> for the use with its products.</p>
 <p>You can download the IDE in <a href="https://www.segger.com/downloads/embedded-studio/"  target="_blank" style="text-decoration: none;">
     <strong>the SEGGER download page</strong></a>. It is available for: Windows 32/64 bit, Linux 32/64 bit and macOS.<br />
 <p class="md__image">
   <img src="/tutorials/images/getting-started/ses-download.PNG" alt="download segger embedded studio (ses)"  />
 </p></p>
-<blockquote>
-<p><strong>Note:</strong> You can also use other Toolcains/IDEs, but that will require building your projects from scratch.</p>
-</blockquote>
 <h3 id="the-nrf5-sdk">The nRF5 SDK</h3>
 <p>The nRF5 SDK is a set of tools, modules, libraries, examples &hellip; that are necessary for building applications for the nRF51 and nRF52 series.<br />
 At the time of writing this tutorial <code>11th of August 2020</code>, the latest version is <strong>nRF5_SDK_17.0.0_9d13099</strong> (v17.0.0).<br />
@@ -1956,7 +1954,7 @@ Download your nRF5 SDK copy in <a href="https://www.nordicsemi.com/Software-and-
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nrf-clit.PNG" alt="nrf command line tools "  />
 </p></p>
-<p>The nRF Command Line Tools is used for development, programming and debugging of Nordic Semiconductor&rsquo;s nRF51, nRF52, nRF53 and nRF91 Series devices.<br />
+<p>The nRF Command Line Tools is used for development, programming and debugging of Nordic&rsquo;s nRF51, nRF52, nRF53 and nRF91 Series based SOCs using the Command line.<br />
 Download the latest vesrion for your OS in <a href="https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line-Tools/Download#infotabs"  target="_blank" style="text-decoration: none;">
     <strong>the nRF command line tools Download page</strong></a>.</p>
 <p><p class="md__image">
@@ -1966,8 +1964,8 @@ Download the latest vesrion for your OS in <a href="https://www.nordicsemi.com/S
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nrf-connect-desktop.PNG" alt="nrf desktop app"  />
 </p></p>
-<p>It&rsquo;s not a necessary tool (at least at the start), but you will definitly need it in further stages.<br />
-Download the latest verssion for your OS, in <a href="https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-desktop/Download#infotabs"  target="_blank" style="text-decoration: none;">
+<p>The nRF Connect for Desktop is a cross-platform tool that enables testing and development with Nordic’s products including the nRF5 series. It can also be used to flash compiled hex files to the SOCs flash memory.</p>
+<p>Download the latest version for your OS, in <a href="https://www.nordicsemi.com/Software-and-tools/Development-Tools/nRF-Connect-for-desktop/Download#infotabs"  target="_blank" style="text-decoration: none;">
     <strong>the NordicSemi Download Webpage</strong></a>.</p>
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nrf-connect-desktop-download.PNG" alt="nrf desktop app download"  />
@@ -2011,8 +2009,8 @@ I found these apps very helpful:</p>
     
     <div class="grow"></div>
     
-      <a href="/tutorials/test-blinky-app/" title="Test the blinky Example" class="pagination-single__right">
-        <div class="pagination-single__left-title">Test the blinky Example</div>
+      <a href="/tutorials/test-blinky-app/" title="Blinky Example" class="pagination-single__right">
+        <div class="pagination-single__left-title">Blinky Example</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2032,7 +2030,7 @@ I found these apps very helpful:</p>
   <div class="toc__body">
     <nav id="TableOfContents">
   <ol>
-    <li><a href="#1-get-a-development-kit">1: Get a Development Kit</a>
+    <li><a href="#step1-get-a-development-kit">Step1: Get a Development Kit</a>
       <ol>
         <li><a href="#the-nrf51-series">The nRF51 series:</a></li>
         <li><a href="#the-nrf52-series">The nRF52 series:</a>
@@ -2047,7 +2045,7 @@ I found these apps very helpful:</p>
         <li><a href="#buying-a-development-kit">Buying a Development kit:</a></li>
       </ol>
     </li>
-    <li><a href="#2-install-the-necessary-software-tools">2: Install the necessary software tools</a>
+    <li><a href="#step2-install-the-necessary-software-tools">Step2: Install the necessary software tools</a>
       <ol>
         <li><a href="#the-toolchainide">The Toolchain/IDE</a></li>
         <li><a href="#the-nrf5-sdk">The nRF5 SDK</a></li>
