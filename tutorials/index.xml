@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on nRF5dev</title>
-    <link>/tutorials/</link>
+    <link>https://nrf5dev.com/tutorials/</link>
     <description>Recent content in Tutorials on nRF5dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
-        <atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://nrf5dev.com/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     
       
       <item>
         <title>Get started</title>
-        <link>/tutorials/getting-started/</link>
+        <link>https://nrf5dev.com/tutorials/getting-started/</link>
         <pubDate>Wed, 15 Apr 2020 01:00:00 +0000</pubDate>
         
-        <guid>/tutorials/getting-started/</guid>
+        <guid>https://nrf5dev.com/tutorials/getting-started/</guid>
         <description>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.
 Step1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.</description>
       </item>
       
       <item>
         <title>Blinky Example</title>
-        <link>/tutorials/test-blinky-app/</link>
+        <link>https://nrf5dev.com/tutorials/test-blinky-app/</link>
         <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>/tutorials/test-blinky-app/</guid>
+        <guid>https://nrf5dev.com/tutorials/test-blinky-app/</guid>
         <description>After getting your development kit and installing all the necessary software tools, this should be the time to run/test some examples from the nRF5_SDK. I will be using the blinky example under the peripheral examples folder.
 Open the blinky project with SES IDE: I have extracted the nRF5_SDK .Zip file in C:\nRF\nRF5_SDK\v17.0.0\, so the blinky example folder location will be in C:\nRF\nRF5_SDK\v17.0.0\examples\peripheral\blinky.
 In this folder you will have 2 options:</description>
@@ -37,10 +37,10 @@ In this folder you will have 2 options:</description>
       
       <item>
         <title>Buttons and leds</title>
-        <link>/tutorials/buttons-and-leds/</link>
+        <link>https://nrf5dev.com/tutorials/buttons-and-leds/</link>
         <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>/tutorials/buttons-and-leds/</guid>
+        <guid>https://nrf5dev.com/tutorials/buttons-and-leds/</guid>
         <description>Your nRF52 development kit already comes with 4 user-programmable buttons and 4 leds built in.
 In this tutorial we&amp;rsquo;ll be looking into how to read these buttons states and control the leds. This should give you a better understanding on how to read and control pins states.
 Getting started: For building the testing code, we&amp;rsquo;ll be starting with the blinky project located under the peripheral examples.
