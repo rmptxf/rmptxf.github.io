@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nrf5dev.com/tutorials/getting-started/</loc>
-    <lastmod>2020-04-15T01:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrf5dev.com/tutorials/test-blinky-app/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrf5dev.com/tutorials/buttons-and-leds/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nrf5dev.com/</loc>
     <lastmod>2020-01-26T04:15:05+09:00</lastmod>
   </url>
