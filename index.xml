@@ -15,6 +15,16 @@
     
       
       <item>
+        <title>Getting started</title>
+        <link>https://nrf5dev.com/tutorials/getting-started/</link>
+        <pubDate>Wed, 19 Aug 2020 13:30:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/tutorials/getting-started/</guid>
+        <description>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.
+Step1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.</description>
+      </item>
+      
+      <item>
         <title>Blinky Test</title>
         <link>https://nrf5dev.com/tutorials/test-blinky-app/</link>
         <pubDate>Mon, 17 Aug 2020 19:20:00 +0000</pubDate>
