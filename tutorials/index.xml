@@ -15,19 +15,9 @@
     
       
       <item>
-        <title>Getting started</title>
-        <link>https://nrf5dev.com/tutorials/getting-started/</link>
-        <pubDate>Mon, 17 Aug 2020 13:30:00 +0000</pubDate>
-        
-        <guid>https://nrf5dev.com/tutorials/getting-started/</guid>
-        <description>In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.
-Step1: Get a Development Kit In order to run/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.</description>
-      </item>
-      
-      <item>
         <title>Blinky Test</title>
         <link>https://nrf5dev.com/tutorials/test-blinky-app/</link>
-        <pubDate>Mon, 17 Aug 2020 13:20:00 +0000</pubDate>
+        <pubDate>Mon, 17 Aug 2020 19:20:00 +0000</pubDate>
         
         <guid>https://nrf5dev.com/tutorials/test-blinky-app/</guid>
         <description>After getting your development kit and installing all the necessary software tools, this should be the time to run/test some examples from the nRF5_SDK. I will be using the blinky example under the peripheral examples folder.
@@ -38,7 +28,7 @@ In this folder you will have 2 options:</description>
       <item>
         <title>Buttons and leds</title>
         <link>https://nrf5dev.com/tutorials/buttons-and-leds/</link>
-        <pubDate>Mon, 17 Aug 2020 13:10:00 +0000</pubDate>
+        <pubDate>Mon, 17 Aug 2020 19:10:00 +0000</pubDate>
         
         <guid>https://nrf5dev.com/tutorials/buttons-and-leds/</guid>
         <description>Your nRF52 development kit already comes with 4 user-programmable buttons and 4 leds built in.
