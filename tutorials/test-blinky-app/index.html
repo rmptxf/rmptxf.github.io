@@ -1995,9 +1995,25 @@ Let&rsquo;s blink the LED1 which its index is 0.</p>
 
       
   
-    <div id="commento"></div>
-<script defer src="https://cdn.commento.io/js/commento.js"></script>
-
+    <div id="comments-gitment"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  var gitment = new Gitment({
+    id: '2020-08-17 19:20:00 \x2b0000 \x2b0000',
+    title: 'Blinky Test',
+    link: decodeURI(location.href),
+    desc: 'After getting your development kit and installing all the necessary software tools, this should be the time to run\/test some examples from the nRF5_SDK. I will be using the blinky example under the peripheral examples folder.\nOpen the blinky project with SES IDE: I have extracted the nRF5_SDK .Zip file in C:\\nRF\\nRF5_SDK\\v17.0.0\\, so the blinky example folder location will be in C:\\nRF\\nRF5_SDK\\v17.0.0\\examples\\peripheral\\blinky.\nIn this folder you will have 2 options:',
+    owner: 'rmptxf',
+    repo: 'hbcmt',
+    oauth: {
+      client_id: '1ff5d6a8e135f378537e',
+      client_secret: 'e58dc34190d86c2456eb12949b3235e334f5a0a7'
+    }
+  });
+  gitment.render('comments-gitment');
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
   
 
     </article>
