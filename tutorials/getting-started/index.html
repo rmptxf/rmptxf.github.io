@@ -251,7 +251,7 @@
     var dataBGImgs = document.querySelectorAll('div[data-bgimg]');
 
     
-    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
+    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\",\"h5\"]");
 
     if (tocLevels) {
       tocLevels = tocLevels.toString();
@@ -1996,25 +1996,36 @@ I found these apps very helpful:</p>
 
       
   
-    <div id="comments-gitment"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript">
-  var gitment = new Gitment({
-    id: '2020-08-19 13:30:00 \x2b0000 \x2b0000',
-    title: 'Getting started',
-    link: decodeURI(location.href),
-    desc: 'In this Tutorial I will walk you throught all the necessary steps that you need to follow, in order to get started with the nRF5 development.\nStep1: Get a Development Kit In order to run\/test your applications, you need to have a development kit. the dev-kit consists of a development board, where your targeted SOC (system on chip) is soldered to with all the necessary components needed for its proper working.',
-    owner: 'rmptxf',
-    repo: 'hbcmt',
-    oauth: {
-      client_id: '1ff5d6a8e135f378537e',
-      client_secret: 'e58dc34190d86c2456eb12949b3235e334f5a0a7'
+    <div id="utterances"></div>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    try {
+      
+      var owner = JSON.parse("\"rmptxf\"");
+      
+      var repo = JSON.parse("\"hbcmt\"");
+      var localTheme = localStorage.getItem('theme');
+      var utterTheme = localTheme === "dark" || localTheme === "hacker" ? 'photon-dark' : localTheme === 'kimbie' ? 'github-dark-orange' : 'github-light'
+
+      var myScript = document.createElement('script');
+      myScript.setAttribute('src', 'https://utteranc.es/client.js');
+      myScript.setAttribute('repo', `${owner}/${repo}`);
+      myScript.setAttribute('issue-term', 'pathname');
+      myScript.setAttribute('theme', utterTheme);
+      myScript.setAttribute('crossorigin', 'anonymous');
+      myScript.setAttribute('async', '');
+
+      myScript.onload = function() {
+      }
+
+      document.getElementById('utterances').appendChild(myScript);
+    } catch (err) {
+      console.log(err);
     }
   });
-  gitment.render('comments-gitment');
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+
   
 
     </article>

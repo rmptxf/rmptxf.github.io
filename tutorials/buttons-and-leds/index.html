@@ -251,7 +251,7 @@
     var dataBGImgs = document.querySelectorAll('div[data-bgimg]');
 
     
-    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
+    var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\",\"h5\"]");
 
     if (tocLevels) {
       tocLevels = tocLevels.toString();
@@ -2039,25 +2039,36 @@ A better way to acheive the same result with low power consumption, is by using 
 
       
   
-    <div id="comments-gitment"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
-<script type="text/javascript">
-  var gitment = new Gitment({
-    id: '2020-08-17 19:10:00 \x2b0000 \x2b0000',
-    title: 'Buttons and leds',
-    link: decodeURI(location.href),
-    desc: 'Your nRF52 development kit already comes with 4 user-programmable buttons and 4 leds built in.\nIn this tutorial we\x26rsquo;ll be looking into how to read these buttons states and control the leds. This should give you a better understanding on how to read and control pins states.\nGetting started: For building the testing code, we\x26rsquo;ll be starting with the blinky project located under the peripheral examples.\ni\x26rsquo;m using the nRF52840-DK (PCA10056), so i\x26rsquo;ll launch the EM PROJECT FILE in .',
-    owner: 'rmptxf',
-    repo: 'hbcmt',
-    oauth: {
-      client_id: '1ff5d6a8e135f378537e',
-      client_secret: 'e58dc34190d86c2456eb12949b3235e334f5a0a7'
+    <div id="utterances"></div>
+<noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    try {
+      
+      var owner = JSON.parse("\"rmptxf\"");
+      
+      var repo = JSON.parse("\"hbcmt\"");
+      var localTheme = localStorage.getItem('theme');
+      var utterTheme = localTheme === "dark" || localTheme === "hacker" ? 'photon-dark' : localTheme === 'kimbie' ? 'github-dark-orange' : 'github-light'
+
+      var myScript = document.createElement('script');
+      myScript.setAttribute('src', 'https://utteranc.es/client.js');
+      myScript.setAttribute('repo', `${owner}/${repo}`);
+      myScript.setAttribute('issue-term', 'pathname');
+      myScript.setAttribute('theme', utterTheme);
+      myScript.setAttribute('crossorigin', 'anonymous');
+      myScript.setAttribute('async', '');
+
+      myScript.onload = function() {
+      }
+
+      document.getElementById('utterances').appendChild(myScript);
+    } catch (err) {
+      console.log(err);
     }
   });
-  gitment.render('comments-gitment');
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+
   
 
     </article>
