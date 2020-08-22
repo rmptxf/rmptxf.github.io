@@ -1895,18 +1895,6 @@ The dongle comes with a On-Board SEGGER J-Link debugger, same as the Dev-kit. So
 </p></p>
 <h2 id="step2-install-the-necessary-software-tools">Step2: Install the necessary software tools</h2>
 <p>After getting your Development kit, you need to download and install the necessary software tools.</p>
-<h3 id="the-toolchainide">The Toolchain/IDE</h3>
-<p>The latest version of the nRF5 SDK (v17) supports: <strong>ARM GCC, IAR, Keil5 and SES</strong>.</p>
-<p><p class="md__image">
-  <img src="/tutorials/images/getting-started/nrf5-supported-toolchains.png" alt="nrf5 supported toolchains"  />
-</p></p>
-<p><strong>SEGGER Embedded Studio (SES)</strong> is a Powerful IDE to use, also recomended by NordicSemi and offers a <a href="https://www.segger.com/news/segger-embedded-studio-ide-now-free-for-nordic-sdk-users/"  target="_blank" style="text-decoration: none;">
-    <strong>Free Commercial license</strong></a> for the use with its products.</p>
-<p>You can download the IDE in <a href="https://www.segger.com/downloads/embedded-studio/"  target="_blank" style="text-decoration: none;">
-    <strong>the SEGGER download page</strong></a>. It is available for: Windows 32/64 bit, Linux 32/64 bit and macOS.<br />
-<p class="md__image">
-  <img src="/tutorials/images/getting-started/ses-download.PNG" alt="download segger embedded studio (ses)"  />
-</p></p>
 <h3 id="the-nrf5-sdk">The nRF5 SDK</h3>
 <p>The nRF5 SDK is a set of tools, modules, libraries, examples &hellip; that are necessary for building applications for the nRF51 and nRF52 series.<br />
 Please Note that the nRF5_SDK does not support the development for the nRF53 series.</p>
@@ -1930,6 +1918,21 @@ Please Note that the nRF5_SDK does not support the development for the nRF53 ser
 <blockquote>
 <p><strong>Note:</strong> To have an organized folder structure, consider extracting the nRF5_SDK Zip file in : For example: <code>C:\nRF\nRF5_SDK\v17.0.0\</code>. So all the SDK versions remain in the same folder.</p>
 </blockquote>
+<h3 id="the-toolchainide">The Toolchain/IDE</h3>
+<p>The latest version of the nRF5 SDK (v17) supports: <strong>ARM GCC, IAR, Keil5 and SES</strong>.</p>
+<p><p class="md__image">
+  <img src="/tutorials/images/getting-started/nrf5-supported-toolchains.png" alt="nrf5 supported toolchains"  />
+</p></p>
+<p><strong>SEGGER Embedded Studio (SES)</strong> is a Powerful IDE to use, also recomended by NordicSemi and offers a <a href="https://www.segger.com/news/segger-embedded-studio-ide-now-free-for-nordic-sdk-users/"  target="_blank" style="text-decoration: none;">
+    <strong>Free Commercial license</strong></a> for the use with its products.</p>
+<blockquote>
+<p><strong>Note :</strong> Please note that the <strong>SDK v12.3.0</strong> does not support the <strong>SEGGER</strong> TOOLCHAIN. It only supports <strong>the ARM GCC, IAR and Keil</strong> TOOLCHAINS.</p>
+</blockquote>
+<p>You can download the IDE in <a href="https://www.segger.com/downloads/embedded-studio/"  target="_blank" style="text-decoration: none;">
+    <strong>the SEGGER download page</strong></a>. It is available for: Windows 32/64 bit, Linux 32/64 bit and macOS.<br />
+<p class="md__image">
+  <img src="/tutorials/images/getting-started/ses-download.PNG" alt="download segger embedded studio (ses)"  />
+</p></p>
 <h3 id="the-nrf-command-line-tools">The nRF Command Line Tools</h3>
 <p><p class="md__image">
   <img src="/tutorials/images/getting-started/nrf-clit.PNG" alt="nrf command line tools "  />
@@ -2053,8 +2056,8 @@ I found these apps very helpful:</p>
     </li>
     <li><a href="#step2-install-the-necessary-software-tools">Step2: Install the necessary software tools</a>
       <ol>
-        <li><a href="#the-toolchainide">The Toolchain/IDE</a></li>
         <li><a href="#the-nrf5-sdk">The nRF5 SDK</a></li>
+        <li><a href="#the-toolchainide">The Toolchain/IDE</a></li>
         <li><a href="#the-nrf-command-line-tools">The nRF Command Line Tools</a></li>
         <li><a href="#the-nrfconnect-desktop-app">The nRFConnect Desktop app</a></li>
         <li><a href="#a-ble-explorer-app-for-your-smartphone">A BLE explorer app for your SmartPhone</a></li>
