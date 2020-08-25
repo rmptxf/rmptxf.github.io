@@ -15,6 +15,17 @@
     
       
       <item>
+        <title>Analog Reading</title>
+        <link>https://nrf5dev.com/tutorials/analog-reading/</link>
+        <pubDate>Wed, 19 Aug 2020 13:30:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/tutorials/analog-reading/</guid>
+        <description>In this tutorial will be looking into how to read analog pins with your nRF52 based development kit.
+This tutorial will work on all the nRF52 based development kits, including teh nRF52-DK and the nRF52840-DK.
+Materials needed :  A nRF52 based Development kit: either the nRF52-DK or the nRF52840-DK. The nRF5_SDK : at least the 15.3 version. An IDE : will be using Segger Embedded Studio. An analog device : Will be uisng a Potentiometer.</description>
+      </item>
+      
+      <item>
         <title>Getting started</title>
         <link>https://nrf5dev.com/tutorials/getting-started/</link>
         <pubDate>Wed, 19 Aug 2020 13:30:00 +0000</pubDate>
