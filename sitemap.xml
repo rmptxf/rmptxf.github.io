@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nrf5dev.com/examples/saadc/</loc>
+    <lastmod>2020-09-26T12:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrf5dev.com/examples/</loc>
+    <lastmod>2020-08-26T12:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nrf5dev.com/tutorials/getting-started/</loc>
     <lastmod>2020-08-19T13:30:00+00:00</lastmod>
   </url>
@@ -15,6 +25,11 @@
   <url>
     <loc>https://nrf5dev.com/tutorials/buttons-and-leds/</loc>
     <lastmod>2020-08-17T19:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrf5dev.com/tutorials/analog-reading/</loc>
+    <lastmod>2020-08-16T19:10:00+00:00</lastmod>
   </url>
   
   <url>

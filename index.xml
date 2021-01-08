@@ -15,6 +15,18 @@
     
       
       <item>
+        <title>Saadc</title>
+        <link>https://nrf5dev.com/examples/saadc/</link>
+        <pubDate>Sat, 26 Sep 2020 12:47:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/examples/saadc/</guid>
+        <description>In this example we&amp;rsquo;ll be looking at building a simplified version of the Saadc example in the nRF5 SDK.
+The Saadc (Successive approximation analog-to-digital converter) is a peripheral used to convert analog signals into digital signals, in the nRF5 based SOCs.
+Hardware : To build and test our example, we&amp;rsquo;ll be using an nRF52 based development kit. You can either use the nRF52-DK or the nRF52840-DK.
+The nRF52 series of SOCs feature an 8 channel based Saadc, with pins naming starting from AIN0 to AIN7.</description>
+      </item>
+      
+      <item>
         <title>Getting started</title>
         <link>https://nrf5dev.com/tutorials/getting-started/</link>
         <pubDate>Wed, 19 Aug 2020 13:30:00 +0000</pubDate>
@@ -45,6 +57,18 @@ In this folder you will have 2 options:</description>
 In this tutorial we&amp;rsquo;ll be looking into how to read these buttons states and control the leds. This should give you a better understanding on how to read and control pins states.
 Getting started: For building the testing code, we&amp;rsquo;ll be starting with the blinky project located under the peripheral examples.
 i&amp;rsquo;m using the nRF52840-DK (PCA10056), so i&amp;rsquo;ll launch the EM PROJECT FILE in .</description>
+      </item>
+      
+      <item>
+        <title>Analog reading</title>
+        <link>https://nrf5dev.com/tutorials/analog-reading/</link>
+        <pubDate>Sun, 16 Aug 2020 19:10:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/tutorials/analog-reading/</guid>
+        <description>In this tutorial I will be looking into how to read analog voltages using the nRF52 series of SOCs.
+Analog Inputs : The nrf52 series of SOCs are equiped with an 8 channel ADC, in where the Pins are assigned to the following GPIOs :
+Test example : In this test example I will be using a potentiometer wired to the AIN1 which is the GPIO 3.
+For the firmware, I will be using the Segger toolchain and will start with the saadc example located under examples/peripheral in the nRF5 sdk.</description>
       </item>
       
     

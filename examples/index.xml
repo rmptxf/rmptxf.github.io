@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on nRF5dev</title>
+    <link>https://nrf5dev.com/examples/</link>
+    <description>Recent content in Examples on nRF5dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 26 Aug 2020 12:45:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://nrf5dev.com/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Saadc</title>
+        <link>https://nrf5dev.com/examples/saadc/</link>
+        <pubDate>Sat, 26 Sep 2020 12:47:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/examples/saadc/</guid>
+        <description>In this example we&amp;rsquo;ll be looking at building a simplified version of the Saadc example in the nRF5 SDK.
+The Saadc (Successive approximation analog-to-digital converter) is a peripheral used to convert analog signals into digital signals, in the nRF5 based SOCs.
+Hardware : To build and test our example, we&amp;rsquo;ll be using an nRF52 based development kit. You can either use the nRF52-DK or the nRF52840-DK.
+The nRF52 series of SOCs feature an 8 channel based Saadc, with pins naming starting from AIN0 to AIN7.</description>
+      </item>
+      
+    
+  </channel>
+</rss>

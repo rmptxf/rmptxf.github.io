@@ -979,7 +979,7 @@
 <meta property="og:url" content="https://nrf5dev.com/tutorials/buttons-and-leds/">
 <meta property="og:type" content="article">
 
-<meta name="generator" content="Hugo 0.68.3" />
+<meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://nrf5dev.com/tutorials/buttons-and-leds/">
@@ -1293,6 +1293,29 @@ if (!doNotTrack) {
   
 
     
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://nrf5dev.com/tutorials/analog-reading/"
+      class="menu__title ">Analog reading</a>
+  </li>
+  
+
+    
   </ul>
 </div>
 
@@ -1399,6 +1422,14 @@ if (!doNotTrack) {
     <a href="/tutorials" class="active">Tutorials</a>
   </li>
 
+  
+  
+  
+  
+  <li class="navbar__menu--mobile-item ">
+    <a href="/examples" class="">Examples</a>
+  </li>
+
   </ul>
 </div>
 </span>
@@ -1411,6 +1442,14 @@ if (!doNotTrack) {
   
   <li class="navbar__menu--item active">
     <a href="/tutorials" data-bgimg="false">Tutorials</a>
+  </li>
+
+  
+  
+  
+  
+  <li class="navbar__menu--item ">
+    <a href="/examples" data-bgimg="false">Examples</a>
   </li>
 
           </ul>
@@ -1693,6 +1732,29 @@ if (!doNotTrack) {
   
 
     
+      
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <li class="">
+    <a href="https://nrf5dev.com/tutorials/analog-reading/"
+      class="menu__title ">Analog reading</a>
+  </li>
+  
+
+    
   </ul>
 </div>
 
@@ -1957,10 +2019,10 @@ The Buttons are <strong>active on LOW</strong>, a press will short the button pi
 </span><span class="lnt">52
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdbool.h&gt;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&lt;stdint.h&gt;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&#34;nrf_delay.h&#34;</span><span class="cp">
-</span><span class="cp">#include</span> <span class="cpf">&#34;boards.h&#34;</span><span class="cp">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdbool.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;stdint.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&#34;nrf_delay.h&#34;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&#34;boards.h&#34;</span><span class="cp">
 </span><span class="cp"></span>
 <span class="kt">int</span> <span class="n">button1_state</span><span class="p">,</span> <span class="n">button2_state</span><span class="p">,</span> <span class="n">button3_state</span><span class="p">,</span> <span class="n">button4_state</span><span class="p">;</span>
 
@@ -2013,8 +2075,8 @@ The Buttons are <strong>active on LOW</strong>, a press will short the button pi
 </div>
 <blockquote>
 <p><strong>Notes:</strong> In the example we built, you can notice that all the control functions are in the <strong>while()</strong> loop, means that the SOC will keep reading the buttons pins all the time, and whenever a button is pressed it will turn the related led ON, and OFF when released.<br />
-The problem here is that the SOC will drain lot of power in this process, and this is a critical fearture for low power applications.<br />
-A better way to acheive the same result with low power consumption, is by using interrupts.</p>
+The problem here is that the SOC will drain lot of power in this process, and this is a critical fearture for battery powered applications.<br />
+A better way to acheive the same result with low power consumption, would be by using interrupts.</p>
 </blockquote>
 
   </article>
@@ -2032,6 +2094,13 @@ A better way to acheive the same result with low power consumption, is by using 
       </a>
     
     <div class="grow"></div>
+    
+      <a href="https://nrf5dev.com/tutorials/analog-reading/" title="Analog reading" class="pagination-single__right">
+        <div class="pagination-single__left-title">Analog reading</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>
@@ -2323,7 +2392,7 @@ A better way to acheive the same result with low power consumption, is by using 
       <div class="lmr">
         
           <p class="caption">
-            ©2020, All Rights Reserved
+            ©2021, All Rights Reserved
           </p>
           
         

@@ -47,6 +47,18 @@ Getting started: For building the testing code, we&amp;rsquo;ll be starting with
 i&amp;rsquo;m using the nRF52840-DK (PCA10056), so i&amp;rsquo;ll launch the EM PROJECT FILE in .</description>
       </item>
       
+      <item>
+        <title>Analog reading</title>
+        <link>https://nrf5dev.com/tutorials/analog-reading/</link>
+        <pubDate>Sun, 16 Aug 2020 19:10:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/tutorials/analog-reading/</guid>
+        <description>In this tutorial I will be looking into how to read analog voltages using the nRF52 series of SOCs.
+Analog Inputs : The nrf52 series of SOCs are equiped with an 8 channel ADC, in where the Pins are assigned to the following GPIOs :
+Test example : In this test example I will be using a potentiometer wired to the AIN1 which is the GPIO 3.
+For the firmware, I will be using the Segger toolchain and will start with the saadc example located under examples/peripheral in the nRF5 sdk.</description>
+      </item>
+      
     
   </channel>
 </rss>
