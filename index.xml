@@ -15,6 +15,18 @@
     
       
       <item>
+        <title>nRF52 BLE tester project</title>
+        <link>https://nrf5dev.com/projects/nrf52-ble-tester-firmware-mobile-app/</link>
+        <pubDate>Mon, 08 Feb 2021 11:00:00 +0000</pubDate>
+        
+        <guid>https://nrf5dev.com/projects/nrf52-ble-tester-firmware-mobile-app/</guid>
+        <description>The project is about building a mobile app to control your nRF52 based development kit.
+The project has 2 parts :
+Part1 : The 1st part is about building the nRF52 firmware. the firmware is based on the nRF5 SDK and uses Segger as a toolchain.
+  Part2 : The 2nd part is about building the mobile app. the app is based on the ionic frameword and uses Anguolar for the fornt end.</description>
+      </item>
+      
+      <item>
         <title>Getting started</title>
         <link>https://nrf5dev.com/tutorials/getting-started/</link>
         <pubDate>Wed, 19 Aug 2020 13:30:00 +0000</pubDate>

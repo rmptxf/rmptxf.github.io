@@ -1422,6 +1422,14 @@ if (!doNotTrack) {
     <a href="/tutorials" class="active">Tutorials</a>
   </li>
 
+  
+  
+  
+  
+  <li class="navbar__menu--mobile-item ">
+    <a href="/projects" class="">Projects</a>
+  </li>
+
   </ul>
 </div>
 </span>
@@ -1434,6 +1442,14 @@ if (!doNotTrack) {
   
   <li class="navbar__menu--item active">
     <a href="/tutorials" data-bgimg="false">Tutorials</a>
+  </li>
+
+  
+  
+  
+  
+  <li class="navbar__menu--item ">
+    <a href="/projects" data-bgimg="false">Projects</a>
   </li>
 
           </ul>
@@ -1873,21 +1889,7 @@ if (!doNotTrack) {
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Then add the voltage converstion formulat to your application definitions. The application uses a <strong>12bit</strong> resolution by default, so the formulat would be :</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-c" data-lang="c"><span class="c1">// 12bit
-</span><span class="c1">// V(P) = RESULT x REFERENCE / ( GAIN x RESOLUTION) = RESULT x (600 / (1/6 x 2^(12)) =  ADC_RESULT x 0.87890625;
-</span><span class="c1"></span><span class="cp">#define ADC_RESULT_IN_MILLI_VOLTS(ADC_RESULT) ((ADC_RESULT * 0.87890625))
-</span></code></pre></td></tr></table>
-</div>
-</div><p>If you want to use a <strong>14bit</strong> resolution, which is possible when you&rsquo;re enabling just one channel. You can do that in the <code>sdk_config.h</code>, or <code>app_config.h</code> if you have set that in your application.</p>
-<p>You need to change these two definitons :</p>
+</div><p>The application uses a <strong>10bit</strong> resolution by default, to change it to <strong>12bit</strong> (for more precision) you need to change these two definitions in the <code>sdk_config.h</code> file:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1902,6 +1904,36 @@ if (!doNotTrack) {
 </span><span class="c1"></span>
 <span class="c1">// &lt;o&gt; SAADC_CONFIG_RESOLUTION  - Resolution
 </span><span class="c1"></span><span class="cp">#define SAADC_CONFIG_RESOLUTION 2  </span><span class="c1">// 12bit
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Add the voltage converstion formulat to your application definitions.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="c1">// 12bit
+</span><span class="c1">// V(P) = RESULT x REFERENCE / ( GAIN x RESOLUTION) = RESULT x (600 / (1/6 x 2^(12)) =  ADC_RESULT x 0.87890625;
+</span><span class="c1"></span><span class="cp">#define ADC_RESULT_IN_MILLI_VOLTS(ADC_RESULT) ((ADC_RESULT * 0.87890625))
+</span></code></pre></td></tr></table>
+</div>
+</div><p>If you want to use a <strong>14bit</strong> resolution, which is possible when you&rsquo;re enabling just one channel. You can just update the two related configuration definitions.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="c1">// &lt;o&gt; NRFX_SAADC_CONFIG_RESOLUTION  - Resolution 
+</span><span class="c1"></span><span class="cp">#define NRFX_SAADC_CONFIG_RESOLUTION 3 </span><span class="c1">// 14bit
+</span><span class="c1"></span>
+<span class="c1">// &lt;o&gt; SAADC_CONFIG_RESOLUTION  - Resolution
+</span><span class="c1"></span><span class="cp">#define SAADC_CONFIG_RESOLUTION   3 </span><span class="c1">// 14bit
 </span></code></pre></td></tr></table>
 </div>
 </div><p>Then you need to update the conversion formulat to :</p>
